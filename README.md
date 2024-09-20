@@ -6,20 +6,43 @@ In my hometown of Middleton, Wisconsin, winter storms present significant challe
 
 This project has been a multi-year journey as I’ve delved into the scientific literature surrounding route optimization problems, learned about graph traversal and heuristic algorithms, and navigated the challenges of implementing my ideas in Python through previously unfamiliar libraries. I’m grateful to the mentorship of Carnegie Mellon University Professor Dr. Arthur Sugden for guiding me throughout this process, providing advice and ideas to help me realize my goal to serve my local community.
 
+## Model Parameters and Overview
+
+***Insert info here about the following:
+
+- Location of depot
+- Road priorities
+- Salt consideration
+
+## Results
 
 ### Route 1
+
 The first snowplow is responsible for the eastern half of the city. Estimated time: 8.3 hours.
 ![Plow 1 Routes](/assets/img/blue_routes.png)
 
 ### Route 2
+
 The second snowplow is responsible for the mid-northern section of the city. Estimated time: 8.3 hours.
 
 ![Plow 2 Routes](/assets/img/orange_routes.png)
 
 ### Route 3
+
 The third snowplow is responsible for the western section of the city. Estimated time: 6.7 hours.
 ![Plow 3 Routes](/assets/img/red_routes.png)
 
 ### Route 4
+
 The fourth snowplow is responsible for the mid-southern section of the city. Estimated time: 8.0 hours
 ![Plow 4 Routes](/assets/img/green_routes.png)
+
+## Discussion
+
+Discuss plans for further work here
+
+## Credits
+
+I'd like to thank the following individuals for their guidance and support which has made this project possible:
+
+- List of people here
