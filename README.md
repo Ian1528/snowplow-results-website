@@ -8,11 +8,14 @@ This project has been a multi-year journey as I’ve delved into the scientific 
 
 ## Model Parameters and Overview
 
-***Insert info here about the following:
+***Include info here about the following:
 
 - Location of depot
 - Road priorities
-- Salt consideration
+- Salt considerations
+- Number of passes each plow makes
+- Turn directions
+- Node-based representation
 
 ## Results
 
@@ -45,4 +48,6 @@ Discuss plans for further work here
 
 I'd like to thank the following individuals for their guidance and support which has made this project possible:
 
-- List of people here
+- Dr. Arthur Sugden (Adjunt Professor at CMU)
+- Dr. Ganesh Mani (Distinguished Service Professor at CMU)
+- Casey Ford (UW Madison Graduate Student)
