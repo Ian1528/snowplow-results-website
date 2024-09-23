@@ -40,6 +40,9 @@ The third snowplow is responsible for the western section of the city. Estimated
 The fourth snowplow is responsible for the mid-southern section of the city. Estimated time: 8.0 hours
 ![Plow 4 Routes](/assets/img/green_routes.png)
 
+[View detailed route information](green.html)
+{% include green.html %}
+
 ## Discussion
 
 Discuss plans for further work here
