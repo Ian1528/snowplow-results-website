@@ -11,10 +11,13 @@
 <script>
   console.log("Runing script")
   fetch('green_map.html')
-    .then(response => response.text())
+    .then(response => {
+      console.log("First run");
+      return response.text();
+      })
     .then(data => {
+      console.log("Second part");
       document.getElementById('green-content').innerHTML = data;
     })
     .catch(error => console.error('Error loading green_map.html:', error));
-  console.log("Script finished")
 </script>
