@@ -16,4 +16,5 @@
       document.getElementById('green-content').innerHTML = data;
     })
     .catch(error => console.error('Error loading green_map.html:', error));
+  console.log("Script finished")
 </script>
