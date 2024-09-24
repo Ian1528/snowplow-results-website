@@ -5,7 +5,7 @@ description: "Figures and summary of routing results
 
 <!-- Navigation Bar -->
 <nav>
-  <a href="/snowplow-routing-website">Home</a>
+  <a href="/snowplow-results-website">Home</a>
 </nav>
 
 <!-- Embed green_map.html as an iframe -->
