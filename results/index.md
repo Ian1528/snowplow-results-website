@@ -8,6 +8,9 @@
 
 <div id="green-content"></div>
 
+<!-- Embed green_map.html as an iframe -->
+<iframe src="green_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
 <script>
   fetch('green_map.html')
     .then(response => response.text())
