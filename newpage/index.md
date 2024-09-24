@@ -6,11 +6,12 @@
   <p>This is the content of the green.html file.</p>
 </div>
 
+<div id="test-content"></div>
 <div id="green-content"></div>
 
 <script>
   console.log("Runing script")
-  fetch('green_map.html')
+  fetch('test_html.html')
     .then(response => {
       console.log("First run");
       return response.text();
@@ -19,12 +20,7 @@
       console.log("Second part");
       console.log("Data is ", data);
           // Initialize the DOM parser
-    const parser = new DOMParser();
-
-    // Parse the text
-    const doc = parser.parseFromString(data, "text/html");
-    console.log(doc);
-      document.getElementById('green-content').innerHTML = data;
+      document.getElementById('test-content').innerHTML = data;
     })
     .catch(error => console.error('Error loading green_map.html:', error));
 </script>
