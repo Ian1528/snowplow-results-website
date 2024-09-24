@@ -4,7 +4,7 @@
 
 <!-- Navigation Bar -->
 <nav>
-  <a href="results">Results</a>
+  <a href="results"> Results</a>
 </nav>
 
 
