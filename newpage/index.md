@@ -17,6 +17,7 @@
       })
     .then(data => {
       console.log("Second part");
+      console.log("Data is ", data);
       document.getElementById('green-content').innerHTML = data;
     })
     .catch(error => console.error('Error loading green_map.html:', error));
