@@ -18,6 +18,12 @@
     .then(data => {
       console.log("Second part");
       console.log("Data is ", data);
+          // Initialize the DOM parser
+    const parser = new DOMParser();
+
+    // Parse the text
+    const doc = parser.parseFromString(data, "text/html");
+    console.log(doc);
       document.getElementById('green-content').innerHTML = data;
     })
     .catch(error => console.error('Error loading green_map.html:', error));
