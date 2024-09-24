@@ -1,4 +1,6 @@
-# An efficient, open-source implementation of the snowplow routing problem
+---
+title: An efficient, open-source implementation of the snowplow routing problem
+---
 
 ## Ian Lam
 
