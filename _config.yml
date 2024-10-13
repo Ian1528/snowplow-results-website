@@ -1,8 +1,8 @@
 title: Snowplow Routing in Middleton, Wisconsin
 description: |
-  An efficient, open-source implementation of the snowplow routing problem
-  October 2024
-  Ian Lam
+  An efficient, open-source implementation of the snowplow routing problem \n
+  October 2024 \n
+  Ian Lam \n
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one

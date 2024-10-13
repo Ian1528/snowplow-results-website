@@ -9,9 +9,11 @@ In my hometown of Middleton, Wisconsin, winter storms present significant challe
 
 This project has been a multi-year journey as I’ve delved into the scientific literature surrounding route optimization problems, learned about graph traversal and heuristic algorithms, and navigated the challenges of implementing my ideas in Python through previously unfamiliar libraries. I’m grateful to the mentorship of Carnegie Mellon University Professor Dr. Arthur Sugden for guiding me throughout this process, providing advice and ideas to help me realize my goal to serve my local community.
 
+All of my code can be found in the following GitHub repository: [https://github.com/Ian1528/Snowplow-Routing-Middleton](https://github.com/Ian1528/Snowplow-Routing-Middleton)
+
 ## 2. Modeling Assumptions and Parameters
 
-In this section, I describe the assumptions regarding parameters in the setup of the model, based on information provided by the city.
+In this section, I describe the assumptions made regarding parameters in the setup of the model, based on information provided by the city.
 
 1. Each road needs to be plowed multiple times for a single storm
 
@@ -88,13 +90,11 @@ The third snowplow is responsible for the western section of the city. Estimated
 The fourth snowplow is responsible for the mid-southern section of the city. Estimated time: 7.0 hours
 ![Plow 4 Routes](/assets/img/green_routes.png)
 
+## 5 Discussion
 
-## 4.5 Discussion
+The results I've presented offer a significant reduction from the 8.5 hours it usually takes for the city to clear the roads after a snowstorm. However, there are still numerous improvements and considerations that I plan to explore in the future. For instance, it is possible that switching to a NumPy-based representation of the routes, as opposed to Python objects, would significantly improve computation time, enabling on-the-fly adjustments and new routes to be easily generated depending on the conditions of each snowstorm. Moreover, in addition to the four major sectors of the city, I'd love to generate a set of routes for the city's specialized snowplow, responsible only for cul-de-sacs that are cumbersome for larger plow vehicles to clear. Lastly, I anticipate the need for further collaboration and discussion with the Streets Division to determine the hyperparameter values that best reflect real-world constraints. This could involve changing the cost function, certain road priorities, and/or turn penalties to generate not just optiaml, but also practical routes.
 
-In future, I would love to 
-
-
-## 5. Credits
+## 6. Credits
 
 I'd like to thank the following individuals for their guidance and support which has made this project possible:
 
