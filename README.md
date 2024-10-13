@@ -3,6 +3,8 @@
   <a href="results"> Results</a>
 </nav> -->
 
+#### Ian Lam
+
 ## 1. Overview
 
 In my hometown of Middleton, Wisconsin, winter storms present significant challenges to city operations. The efficient clearance of roads is of crucial importance, ensuring safe travel and efficient management of city resources such as salt and labor costs. While existing research primarily focuses on generalized route optimization problems such as the Traveling Salesman Problem (TSP) and Capacitated Arc Routing Problem (CARP), I present a solution that meets the specific constraints of snowplowing, including turn restrictions, road priorities, and salt capacity limits. Although private companies offer commercial-grade solutions for snowplow routing, the high costs of these services have prevented Middleton from devoting resources to them. Currently, the city devises its snowplow routes by hand, assigning each plow driver a predetermined section of the road network and relegating the specific order in which to plow those roads to the driver themself. Thus, to optimize these sectors, I provide an open source computational algorithm implemented in Python, consisting of an initial route construction heuristic followed by a hybrid local-search genetic algorithm. Moreover, in order to consider turn directions in the cost of a route, I transformed the edge-based road network graph sourced from OpenStreetMap into a node-based representation. Preliminary test results show an improvement for the average plow time in comparison to current routes ranging from 10-25%, depending on the sector of the network. In future work, I would like to explore alternative representations of routes using NumPy, which I anticipate would significantly improve the runtime of the algorithm.
