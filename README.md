@@ -101,5 +101,4 @@ The results I've presented offer a significant reduction from the 8.5 hours it u
 I'd like to thank the following individuals for their guidance and support which has made this project possible:
 
 - Dr. Arthur Sugden (Adjunt Professor at CMU)
-- Dr. Ganesh Mani (Distinguished Service Professor at CMU)
-- Casey Ford (UW Madison Graduate Student)
+- Erik Sorensen (Assistant Public Works Director/Assistant City Engineer - Middleton, WI)
