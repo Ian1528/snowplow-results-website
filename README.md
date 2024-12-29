@@ -92,7 +92,7 @@ The third snowplow is responsible for the western section of the city. Estimated
 The fourth snowplow is responsible for the mid-southern section of the city. Estimated time: 7.0 hours
 ![Plow 4 Routes](/assets/img/green_routes.png)
 
-## 5 Discussion
+## 5. Discussion
 
 The results I've presented offer a significant reduction from the 8.5 hours it usually takes for the city to clear the roads after a snowstorm. However, there are still numerous improvements and considerations that I plan to explore in the future. For instance, it is possible that switching to a NumPy-based representation of the routes, as opposed to Python objects, would significantly improve computation time, enabling on-the-fly adjustments and new routes to be easily generated depending on the conditions of each snowstorm. Moreover, in addition to the four major sectors of the city, I'd love to generate a set of routes for the city's specialized snowplow, responsible only for cul-de-sacs that are cumbersome for larger plow vehicles to clear. Lastly, I anticipate the need for further collaboration and discussion with the Streets Division to determine the hyperparameter values that best reflect real-world constraints. This could involve changing the cost function, certain road priorities, and/or turn penalties to generate not just optiaml, but also practical routes.
 
