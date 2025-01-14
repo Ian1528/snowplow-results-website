@@ -71,6 +71,8 @@ After a specified number of iterations (currently set to 25), consisting of merg
 
 Detailed, animated maps may be found in the [results](https://ian1528.github.io/snowplow-results-website/results/) section of the website.
 
+***New, updated results obtained by altering the cost function to avoid unecessary turns are in the [updated results](https://ian1528.github.io/snowplow-results-website/results_updated/) section.
+
 ### 4.1 Route 1
 
 The first snowplow is responsible for the eastern half of the city. Estimated time: 6.1 hours.
